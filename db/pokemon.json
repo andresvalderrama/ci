@@ -1,0 +1,11 @@
+{
+  "species": [
+    {
+      "id": 1,
+      "name": "bulbasaur"
+    }
+  ],
+  "user": {
+    "name": "typicode"
+  }
+}

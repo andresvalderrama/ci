@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "test": "standard --fix",
+    "test": "NODE_ENV=test mocha --recursive api/**/*.spec.js",
     "start": "nodemon  --ext *.js ./bin/www"
   },
   "dependencies": {
@@ -14,10 +14,14 @@
     "express": "~4.15.5",
     "jade": "~1.11.0",
     "low": "0.0.1",
+    "lowdb": "^1.0.0",
     "morgan": "~1.9.0",
     "serve-favicon": "~2.4.5"
   },
   "devDependencies": {
+    "chai": "4.1.2",
+    "chai-http": "3.0.0",
+    "mocha": "4.0.1",
     "standard": "^10.0.3"
   }
 }
